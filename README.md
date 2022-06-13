@@ -1,0 +1,1 @@
+# Django Project setup using virtualenv
