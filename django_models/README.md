@@ -23,3 +23,4 @@ I used django-environ package to manage some SECRET credentials
 I created some functions within a views.py to handle some url request endpoint\
 Just for testing purpose for the new created model (i.e Post). I used Templates\
 To accomplish this purpose.
+**NB:** It's advisable to follow django's documentation for proper configurations.
