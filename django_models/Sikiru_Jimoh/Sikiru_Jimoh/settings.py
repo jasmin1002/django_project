@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
-# from distutils.debug import DEBUG
+
 from pathlib import Path
 import environ
 
@@ -30,7 +30,6 @@ SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG')
-print(DEBUG)
 
 ALLOWED_HOSTS = []
 
